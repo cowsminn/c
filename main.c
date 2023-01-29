@@ -155,7 +155,7 @@ void stergere(struct magazin **first) {
 
 void salvare(struct magazin *first) {
   FILE *f;
-  f = fopen("fis.txt", "w");
+  f = fopen("tastatura.txt", "w");
   if (f == NULL) {
     fclose(f);
     printf("Fisierul este gol.\n");
@@ -175,7 +175,7 @@ void salvare(struct magazin *first) {
 
 void incarcare(struct magazin **first) {
   FILE *f;
-  f = fopen("fis.txt","r");
+  f = fopen("tastatura.txt","r");
    if (f == NULL) {
     fclose(f);
     printf("Fisierul este gol.\n");
