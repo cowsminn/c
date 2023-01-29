@@ -189,7 +189,7 @@ void incarcare(struct magazin **first) {
     return;
   }
 
-  while (fscanf(f,"%d %s %d %s %d %d\n", &magazinCurent->nrmag, magazinCurent->nume, &magazinCurent->pret, magazinCurent->strada, &magazinCurent->sector, &magazinCurent->nr) == 6) {
+  while (fscanf(f,"%d %39s %d %39s %d %d\n", &magazinCurent->nrmag, magazinCurent->nume, &magazinCurent->pret, magazinCurent->strada, &magazinCurent->sector, &magazinCurent->nr) == 6) {
     magazinCurent->next = *first;
     *first = magazinCurent;
     magazinCurent = (struct magazin*)malloc(sizeof(struct magazin));
