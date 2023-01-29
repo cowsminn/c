@@ -1,0 +1,7 @@
+1 Opshop_1 80 Calea_Mosilor 2 106
+2 Monda 30 Soseaua_Stefan_cel_Mare 2 4
+3 Avantaj 5 General_Praporgescu 0 27
+4 Opshop_2 80 Strada_Silfidelor 3 1
+5 Vitan 10 Splaiul_Unirii 4 450
+6 Valea_Cascadelor 10 Bulevardul_Timisoara 6 111
+
